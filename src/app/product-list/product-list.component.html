@@ -1,7 +1,15 @@
 <h2>Products</h2>
 
-<div *ngFor="let product for Products"></div>
+<div>this is testing</div>
 
+Welcome! {{firstName}} {{lastName}}
+
+<ul>
+  <li *ngFor="let product of products;">
+    Id: {{product.id}} - Name: {{product.name}} - Price: {{product.price}} -
+    Description: {{product.description}}
+  </li>
+</ul>
 <!-- 
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
